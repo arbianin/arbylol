@@ -1,1 +1,1 @@
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-style -s 0 && xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s /home/arby/wallpaper.png && xfdesktop --reload
+sudo sh -c 'printf "[Seat:*]\nuser-session=lxqt\n" > /usr/local/etc/lightdm/lightdm.conf.d/50-lxqt.conf'
